@@ -1656,6 +1656,17 @@
 		margin: 0 0 2em 0;
 	}
 
+	#head2{
+		border: 2px solid red;
+		margin: auto;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+
+	}
+
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
 		line-height: 1.5;
@@ -1667,6 +1678,10 @@
 			text-decoration: none;
 		}
 
+	#mytitle{
+		
+	}
+		
 	h2 {
 		font-size: 2.5em;
 	}
@@ -3649,6 +3664,7 @@
 		position: relative;
 		text-align: center;
 		overflow: hidden;
+		
 	}
 	#blur{
 		filter: blur(0px) !important;
@@ -3657,7 +3673,7 @@
 		font-size: 50px;
 		height: 50vh !important;
 		position: absolute;
-		left: 300px;
+		/*left: 300px;*/
 		text-align: center;
 		overflow: hidden;
 		-moz-transform: scale(1.0);
